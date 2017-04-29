@@ -1,0 +1,31 @@
+.what-section {
+    background-color: #f8f8ff;
+
+    background-image: url(./pycon-selfie.jpg);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.what-section__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+
+    justify-content: space-between;
+}
+
+.what-section__wrapper > div {
+    max-width: 430px;
+}
+
+.what-section__wrapper .what-section__image {
+    align-self: flex-end;
+    margin-left: auto;
+}
+
+@media (min-width: 940px) {
+    .what-section__wrapper .what-section__image {
+        max-width: 50%;
+    }
+}

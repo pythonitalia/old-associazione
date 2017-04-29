@@ -1,0 +1,15 @@
+.title {
+    margin: 0 0 1rem;
+    font-family: Montserrat-Black;
+    font-size: 30px;
+    color: #0B59D7;
+    letter-spacing: 0;
+    text-shadow: -14px 9px 0 rgba(11,89,214,0.10);
+}
+
+@media (min-width: 500px) {
+    .title {
+        margin: 0 0 2rem;
+        font-size: 45px;
+    }
+}

@@ -1,0 +1,28 @@
+.pycon-section {
+    background: black;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-image: url(./python-italia.jpg);
+    background-position: bottom center;
+    background-size: cover;
+}
+
+.pycon-section > div {
+    max-width: 500px;
+}
+
+.pycon-section h1 {
+    font-family: Montserrat-Black;
+    font-size: 40px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    margin: 0;
+
+    text-transform: uppercase;
+    text-align: center;
+}

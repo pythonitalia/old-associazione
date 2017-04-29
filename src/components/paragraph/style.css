@@ -1,0 +1,15 @@
+.paragraph {
+    font-family: AvenirNext-Medium;
+    font-size: 12px;
+    color: #444444;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-bottom: 2em;
+}
+
+@media (min-width: 500px) {
+    .paragraph {
+        line-height: 26px;
+        font-size: 16px;
+    }
+}
