@@ -17,7 +17,8 @@
 }
 
 .pycon-section h1 {
-    font-family: Montserrat-Black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
     font-size: 40px;
     color: #FFFFFF;
     letter-spacing: 0;

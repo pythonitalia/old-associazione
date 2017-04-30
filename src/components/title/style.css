@@ -1,6 +1,7 @@
 .title {
     margin: 0 0 1rem;
-    font-family: Montserrat-Black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
     font-size: 30px;
     color: #0B59D7;
     letter-spacing: 0;
