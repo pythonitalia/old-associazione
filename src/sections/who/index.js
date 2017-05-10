@@ -10,7 +10,7 @@ class WhoSection extends Component {
   render() {
     return (
       <Section className="who-section">
-          <Title>Chi siamo</Title>
+          <Title>Consiglio Associativo</Title>
 
           <div className="who-section__members">
             <Member
