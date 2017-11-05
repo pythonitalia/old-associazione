@@ -25,7 +25,7 @@ export default styled(Section)`
   > div {
     height: 100%;
     width: 90%;
-    max-width: 920px;
+    max-width: ${props => props.maxWidthInner || 920}px;
 
     display: flex;
     justify-content: center;
@@ -40,12 +40,26 @@ export default styled(Section)`
     border: 4px solid #ffc80a;
   }
 
-  ${props => console.log(props)}
+  p {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-bottom: 2em;
+  }
+
+  @media (min-width: 500px) {
+    p {
+      line-height: 26px;
+      font-size: 16px;
+    }
+  }
 
   ${props =>
-      props.background &&
-      css`
-        background: url(${props.background});
-        background-size: cover;
-      `};
+    props.background &&
+    css`
+      background: url(${props.background});
+      background-size: cover;
+    `};
 `;

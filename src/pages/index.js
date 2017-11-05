@@ -4,6 +4,7 @@ import Title from "../components/title";
 import Section from "../components/section";
 
 import pyconSelfie from "../assets/pycon-selfie.jpg";
+import pyconItalia from "../assets/image.jpg";
 
 class IndexPage extends Component {
   render() {
@@ -19,13 +20,14 @@ class IndexPage extends Component {
           />
         </Section>
 
-        <Section>
-          <Title>PyCon Italia</Title>
+        <Section background={pyconItalia} maxWidthInner={500}>
+          <h1>PyCon Italia</h1>
 
           <div
             dangerouslySetInnerHTML={{
               __html: this.props.data.pycon.edges[0].node.html
             }}
+            style={{ color: "white" }}
           />
         </Section>
       </div>
