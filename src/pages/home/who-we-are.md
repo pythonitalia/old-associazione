@@ -1,6 +1,6 @@
 Python è la nostra passione, diffonderlo la nostra missione. Siamo Python Italia,
-un’organizzazione no profit nata a Firenze nell’Aprile del 2007 dal sogno di alcuni
-fan italiani del più bel linguaggio di programmazione mai creato. Da allora
+un’organizzazione no-profit nata a Firenze nell’Aprile del 2007 dal sogno di alcuni
+fan italiani del più bel linguaggio di programmazione che ci sia. Da allora
 siamo cresciuti in una community che conta più di 400 membri. Collaboriamo
 con community simili per scambiare idee, organizzare eventi, imparare,
 crescere insieme e per avere un sacco di pydivertimento!
