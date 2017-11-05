@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import Title from "../components/title";
 import Section from "../components/section";
 import Button from "../components/button";
+import Member from "../components/member";
 
 import pyconSelfie from "../assets/pycon-selfie.jpg";
 import pyconItalia from "../assets/image.jpg";
@@ -19,6 +20,16 @@ class IndexPage extends Component {
               __html: this.props.data.whoWeAre.edges[0].node.html
             }}
           />
+        </Section>
+
+        <Section yellow>
+          <Title>Consiglio Associativo</Title>
+
+          <div>
+            <Member name="Patrick Arminio" bio="President" />
+            <Member name="Simone Zinanni" bio="Vice President" />
+            <Member name="Matteo Benci" bio="Treasurer" />
+          </div>
         </Section>
 
         <Section background={pyconItalia} maxWidthInner={500}>

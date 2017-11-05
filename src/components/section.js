@@ -62,4 +62,10 @@ export default styled(Section)`
       background: url(${props.background});
       background-size: cover;
     `};
+
+  ${props =>
+    props.yellow &&
+    css`
+      background-color: #ffc80a;
+    `};
 `;
