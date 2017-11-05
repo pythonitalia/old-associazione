@@ -6,7 +6,7 @@ import Section from "./section";
 import Logo from "./logo";
 
 const HeaderSection = Section.extend`
-  background: #18a8e8;
+  background-color: #18a8e8;
   color: white;
 
   svg {
@@ -20,7 +20,7 @@ const HeaderSection = Section.extend`
 class Header extends Component {
   render() {
     return (
-      <HeaderSection>
+      <HeaderSection {...this.props}>
         <Logo />
       </HeaderSection>
     );

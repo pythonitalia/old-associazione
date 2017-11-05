@@ -40,10 +40,12 @@ export default styled(Section)`
     border: 4px solid #ffc80a;
   }
 
+  ${props => console.log(props)}
+
   ${props =>
-    props.background &&
-    css`
-      background: url(${props.background});
-      background-size: cover;
-    `};
+      props.background &&
+      css`
+        background: url(${props.background});
+        background-size: cover;
+      `};
 `;

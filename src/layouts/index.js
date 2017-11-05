@@ -4,6 +4,8 @@ import Helmet from "react-helmet";
 
 import Header from "../components/header";
 
+import headerBackground from "../assets/image.jpg";
+
 import "./index.css";
 
 const TemplateWrapper = ({ children }) => (
@@ -15,7 +17,7 @@ const TemplateWrapper = ({ children }) => (
         { name: "keywords", content: "sample, something" }
       ]}
     />
-    <Header />
+    <Header background={headerBackground} />
     <div className="content">{children()}</div>
   </div>
 );
