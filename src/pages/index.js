@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 import Title from "../components/title";
 import Section from "../components/section";
+import Button from "../components/button";
 
 import pyconSelfie from "../assets/pycon-selfie.jpg";
 import pyconItalia from "../assets/image.jpg";
@@ -29,6 +30,10 @@ class IndexPage extends Component {
             }}
             style={{ color: "white" }}
           />
+
+          <Button href="https://www.pycon.it" target="_blank">
+            Visita il sito
+          </Button>
         </Section>
       </div>
     );
