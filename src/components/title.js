@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export default styled.h1`
   margin: 0 0 1rem;
@@ -15,4 +15,10 @@ export default styled.h1`
       font-size: 45px;
     }
   }
+
+  ${props =>
+    props.white &&
+    css`
+      color: white;
+    `};
 `;

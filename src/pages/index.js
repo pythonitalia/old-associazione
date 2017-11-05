@@ -22,7 +22,7 @@ class IndexPage extends Component {
         </Section>
 
         <Section background={pyconItalia} maxWidthInner={500}>
-          <h1>PyCon Italia</h1>
+          <Title white>PyCon Italia</Title>
 
           <div
             dangerouslySetInnerHTML={{
