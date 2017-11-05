@@ -8,6 +8,7 @@
     "gatsby-link": "^1.6.24",
     "gatsby-plugin-react-helmet": "^1.0.8",
     "gatsby-plugin-styled-components": "^1.0.5",
+    "gatsby-remark-images": "^1.5.30",
     "gatsby-source-filesystem": "^1.5.7",
     "gatsby-transformer-remark": "^1.7.19"
   },

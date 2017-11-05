@@ -5,3 +5,5 @@ Since then, we’ve grown into a big community with more than XXX members,
 we partnered with our brethren communities (link?) to exchange ideas,
 organize events, learn together, grow together and have loads
 of PyFun! Want to join us? TODO
+
+![](./team.jpg)

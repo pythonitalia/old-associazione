@@ -34,6 +34,12 @@ export default styled(Section)`
     flex-direction: column;
   }
 
+  img {
+    max-width: 100%;
+    height: auto;
+    border: 4px solid #ffc80a;
+  }
+
   ${props =>
     props.background &&
     css`
