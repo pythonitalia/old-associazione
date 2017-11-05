@@ -3,11 +3,13 @@ import React, { Component } from "react";
 import Title from "../components/title";
 import Section from "../components/section";
 
+import pyconSelfie from "../assets/pycon-selfie.jpg";
+
 class IndexPage extends Component {
   render() {
     return (
       <div>
-        <Section background={__PATH_PREFIX__ + "/static/pycon-selfie.jpg"}>
+        <Section background={pyconSelfie}>
           <Title>Chi Siamo</Title>
 
           <div
