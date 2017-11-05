@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 class Section extends Component {
   render() {
@@ -33,4 +33,11 @@ export default styled(Section)`
 
     flex-direction: column;
   }
+
+  ${props =>
+    props.background &&
+    css`
+      background: url(${props.background});
+      background-size: cover;
+    `};
 `;

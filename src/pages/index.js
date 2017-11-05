@@ -7,7 +7,7 @@ class IndexPage extends Component {
   render() {
     return (
       <div>
-        <Section>
+        <Section background={__PATH_PREFIX__ + "/static/pycon-selfie.jpg"}>
           <Title>Chi Siamo</Title>
 
           <div
