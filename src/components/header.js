@@ -12,7 +12,7 @@ const HeaderSection = Section.extend`
   svg {
     display: block;
     width: 80%;
-    max-width: 500px;
+    max-width: 400px;
     height: auto;
   }
 `;
