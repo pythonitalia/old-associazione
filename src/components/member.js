@@ -7,6 +7,7 @@ const Wrapper = styled.dl`
   border: 4px solid #0b59d6;
 
   padding: 1rem;
+  margin-bottom: 1rem;
 
   > dt {
     font-family: "Lato", sans-serif;

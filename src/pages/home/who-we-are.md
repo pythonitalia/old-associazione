@@ -1,9 +1,9 @@
-Python is our passion, spreading its word is our mission. We are Python Italia,
-a non-profit organisation born in Florence in April 2007 from the dream of a
-few Italian fans of the most beautiful programming language ever created.
-Since then, we’ve grown into a big community with more than XXX members,
-we partnered with our brethren communities to exchange ideas,
-organize events, learn together, grow together and have loads
-of PyFun! Want to join us? Send an email to [info@python.it](info@python.it)
+Python è la nostra passione, diffonderlo la nostra missione. Siamo Python Italia,
+un’organizzazione no profit nata a Firenze nell’Aprile del 2007 dal sogno di alcuni
+fan italiani del più bel linguaggio di programmazione mai creato. Da allora
+siamo cresciuti in una community che conta più di XXX membri. Collaboriamo
+con community simili per scambiare idee, organizzare eventi, imparare,
+crescere insieme e per avere un sacco di pydivertimento!
+Vuoi unirti? Manda una mail a [info@python.it](info@python.it)
 
 ![](./team.jpg)

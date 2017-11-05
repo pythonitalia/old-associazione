@@ -4,6 +4,7 @@ import Title from "../components/title";
 import Section from "../components/section";
 import Button from "../components/button";
 import Member from "../components/member";
+import BoardMembers from "../components/board-members";
 
 import pyconSelfie from "../assets/pycon-selfie.jpg";
 import pyconItalia from "../assets/image.jpg";
@@ -13,7 +14,7 @@ class IndexPage extends Component {
     return (
       <div>
         <Section background={pyconSelfie}>
-          <Title>Chi Siamo</Title>
+          <Title>Cos'è Python Italia</Title>
 
           <div
             dangerouslySetInnerHTML={{
@@ -25,11 +26,11 @@ class IndexPage extends Component {
         <Section yellow>
           <Title>Consiglio Associativo</Title>
 
-          <div>
+          <BoardMembers>
             <Member name="Patrick Arminio" bio="President" />
             <Member name="Simone Zinanni" bio="Vice President" />
             <Member name="Matteo Benci" bio="Treasurer" />
-          </div>
+          </BoardMembers>
         </Section>
 
         <Section background={pyconItalia} maxWidthInner={500}>
