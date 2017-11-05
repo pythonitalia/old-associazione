@@ -43,16 +43,16 @@ export default styled(Section)`
   p {
     font-family: "Lato", sans-serif;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 16px;
     letter-spacing: 0;
-    line-height: 20px;
+    line-height: 24px;
     margin-bottom: 2em;
   }
 
   @media (min-width: 500px) {
     p {
-      line-height: 26px;
-      font-size: 16px;
+      line-height: 30px;
+      font-size: 20px;
     }
   }
 
