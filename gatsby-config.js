@@ -13,6 +13,20 @@ module.exports = {
       }
     },
     {
+      resolve: `gatsby-plugin-favicon`,
+      options: {
+        android: true,
+        appleIcon: true,
+        appleStartup: false,
+        coast: false,
+        favicons: true,
+        firefox: true,
+        twitter: true,
+        yandex: false,
+        windows: false
+      }
+    },
+    {
       resolve: "gatsby-transformer-remark",
       options: {
         plugins: [
