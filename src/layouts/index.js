@@ -11,10 +11,13 @@ import "./index.css";
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="Associazione Python Italia"
       meta={[
-        { name: "description", content: "Sample" },
-        { name: "keywords", content: "sample, something" }
+        {
+          name: "description",
+          content:
+            "Python Italia è un’organizzazione no-profit che si occupa di diffondere Python in Italia"
+        }
       ]}
     />
     <Header background={headerBackground} />
