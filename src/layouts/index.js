@@ -7,17 +7,33 @@ import Header from "../components/header";
 import headerBackground from "../assets/image.jpg";
 
 import "./index.css";
+import image from '../assets/social.png';
+
+
+const name = 'Associazione Python Italia"';
+const description =
+  "Python Italia è un’organizzazione no-profit che si occupa di diffondere Python in Italia";
 
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Associazione Python Italia"
+      title={name}
       meta={[
         {
           name: "description",
-          content:
-            "Python Italia è un’organizzazione no-profit che si occupa di diffondere Python in Italia"
-        }
+          content: description
+        },
+        { name: "twitter:site", content: name },
+        { name: "twitter:creator", content: name },
+        { name: "twitter:title", content: name },
+        { name: "twitter:image", content: image },
+
+        { property: "og:title", content: name },
+        { property: "og:site_name", content: name },
+        { property: "og:type", content: "website" },
+        { property: "og:url", content: "https://associazione.python.it" },
+        { property: "og:description", content: description },
+        { property: "og:image", content: image }
       ]}
       link={[
         {
