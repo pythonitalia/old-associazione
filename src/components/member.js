@@ -10,7 +10,7 @@ const Wrapper = styled.dl`
   margin-bottom: 1rem;
 
   > dt {
-    font-family: "Lato", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 900;
     font-size: 20px;
     color: #0b59d6;
