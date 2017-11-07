@@ -10,7 +10,7 @@ import "./index.css";
 import image from '../assets/social.png';
 
 
-const name = 'Associazione Python Italia"';
+const name = 'Associazione Python Italia';
 const description =
   "Python Italia è un’organizzazione no-profit che si occupa di diffondere Python in Italia";
 
