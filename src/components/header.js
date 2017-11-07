@@ -2,10 +2,9 @@ import React, { Component } from "react";
 
 import styled from "styled-components";
 
-import Section from "./section";
 import Logo from "./logo";
 
-const HeaderSection = Section.extend`
+const HeaderSection = styled.div`
   background-color: #18a8e8;
   color: white;
 

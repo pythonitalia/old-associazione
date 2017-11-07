@@ -16,11 +16,6 @@ export default styled(Section)`
   padding: 3rem 2rem;
   width: 100%;
   min-height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  flex-direction: column;
 
   > div {
     height: 100%;
