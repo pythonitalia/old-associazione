@@ -1,12 +1,23 @@
 import React, { Component } from "react";
 
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 import Logo from "./logo";
 
 const HeaderSection = styled.div`
   background-color: #18a8e8;
   color: white;
+  min-height: 100%;
+
+  display: flex;
+  justify-content: center;
+
+  ${props =>
+    props.background &&
+    css`
+      background: url(${props.background});
+      background-size: cover;
+    `};
 
   svg {
     display: block;
