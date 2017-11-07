@@ -17,9 +17,13 @@ export default styled(Section)`
   width: 100%;
   min-height: 100%;
 
+  display: flex;
+  align-items: center;
+
   > div {
     height: 100%;
     width: 90%;
+    margin: 0 auto;
     max-width: ${props => props.maxWidthInner || 920}px;
 
     display: flex;
