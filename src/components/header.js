@@ -9,6 +9,10 @@ const HeaderSection = Section.extend`
   background-color: #18a8e8;
   color: white;
 
+  > div {
+      height: auto;
+  }
+
   svg {
     display: block;
     width: 80%;
