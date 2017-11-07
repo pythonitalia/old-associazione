@@ -40,9 +40,9 @@ export default styled(Section)`
   }
 
   p {
-    font-family: "Lato", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: 0;
     line-height: 24px;
     margin-bottom: 2em;

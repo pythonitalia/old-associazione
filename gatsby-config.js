@@ -13,6 +13,12 @@ module.exports = {
       }
     },
     {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`varela round`, `open sans`]
+      }
+    },
+    {
       resolve: `gatsby-plugin-favicon`,
       options: {
         android: true,
