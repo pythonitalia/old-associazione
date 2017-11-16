@@ -15,7 +15,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [`varela round`, `open sans`]
+        fonts: [`Montserrat`, `open sans`]
       }
     },
     {
