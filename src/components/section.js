@@ -40,7 +40,6 @@ export default styled(Section)`
   }
 
   p {
-    font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 0;

@@ -20,3 +20,8 @@ body > div > div,
 .content > div {
   height: 100%;
 }
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}

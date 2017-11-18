@@ -7,7 +7,6 @@ export default styled.a`
     box-shadow: -0.5em 0.5em 0 0 #0b59d6;
     text-transform: uppercase;
 
-    font-family: "Montserrat", sans-serif;
     font-weight: 900;
     color: #0b59d6;
     letter-spacing: 2.8px;
