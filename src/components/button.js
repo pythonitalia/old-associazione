@@ -7,7 +7,7 @@ export default styled.a`
     box-shadow: -0.5em 0.5em 0 0 #0b59d6;
     text-transform: uppercase;
 
-    font-weight: 900;
+    font-weight: 700;
     color: #0b59d6;
     letter-spacing: 2.8px;
 

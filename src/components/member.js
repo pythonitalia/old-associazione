@@ -10,7 +10,7 @@ const Wrapper = styled.dl`
   margin-bottom: 1rem;
 
   > dt {
-    font-weight: 900;
+    font-weight: 700;
     font-size: 20px;
     color: #0b59d6;
     letter-spacing: 0;
