@@ -4,6 +4,6 @@ fan italiani del più bel linguaggio di programmazione che ci sia. Da allora
 siamo cresciuti in una community che conta più di 400 membri. Collaboriamo
 con community simili per scambiare idee, organizzare eventi, imparare,
 crescere insieme e per avere un sacco di pydivertimento!
-Vuoi unirti? Manda una mail a [info@python.it](info@python.it)
+Vuoi unirti? Manda una mail a [info@python.it](mailto:info@python.it)
 
 ![](./team.jpg)
